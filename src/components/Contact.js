@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import contactList from "../data/ContactList";
 import emailList from "../data/EmailList";
 import ContactModel from "./contact_us/ContactModel";
@@ -15,7 +16,7 @@ function Contact(props) {
       <div className="bottom-nav">
         <ol className="breadcrumb">
           <li className="breadcrumb-item">
-            <a href="/">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li className="breadcrumb-item active">Contact Us</li>
         </ol>

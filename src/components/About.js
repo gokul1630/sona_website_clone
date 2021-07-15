@@ -1,6 +1,7 @@
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Footer from './Home/Footer';
 function About() {
   return (
@@ -14,7 +15,7 @@ function About() {
         <div className='bottom-nav'>
           <ol className='breadcrumb'>
             <li className='breadcrumb-item'>
-              <a href='/'>Home</a>
+              <Link to='/'>Home</Link>
             </li>
             <li className='breadcrumb-item active'>About Us</li>
           </ol>
