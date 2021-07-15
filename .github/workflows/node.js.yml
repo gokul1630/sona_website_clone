@@ -27,9 +27,6 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    - name: Build
-      run: npm run build
-
     - name: Deploy
       run: |
         git config --global user.name $user_name
