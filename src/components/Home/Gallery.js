@@ -13,7 +13,6 @@ function Gallery(props) {
       lazyLoad={true}
       showBullets={true}
     />
-
   );
 }
 

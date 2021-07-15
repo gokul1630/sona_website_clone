@@ -3,7 +3,7 @@ import React from 'react';
 
 function CampusLife(props) {
   return (
-    <div style={{padding:'10px'}}>
+    <div style={{ padding: '10px' }}>
       <Card className='campus-life-card'>
         <CardContent>
           <img src={props.link} alt={props.title} className='campus-life-img' />

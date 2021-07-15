@@ -26,7 +26,7 @@ function About() {
           </h1>
         </div>
       </div>
-      <div className='skew1'/>
+      <div className='skew1' />
       <div className='cont'>
         <div className='vision'>
           <h3 className='text-center' id='vision-text'>
@@ -97,7 +97,7 @@ function About() {
           </Card>
         </div>
       </div>
-      <div className='skew2'/>
+      <div className='skew2' />
       <br />
       <Footer />
     </div>

@@ -24,7 +24,6 @@ const events = [
     title: '“BOT Unleashed” a learning program introducing RPA',
     about: 'Department of IT organised the program',
   },
-
 ];
 
 export default events;
