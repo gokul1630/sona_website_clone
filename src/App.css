@@ -234,15 +234,17 @@ td:hover {
 }
 .campus-life-txt {
   color: aliceblue;
-  font-size: 4vw;
+  font-size: 3.5vw;
+}
+@media screen and (max-width:500px) {
+    .campus-life-txt {
+    color: aliceblue;
+    font-size: 7vw;
+  }
 }
 @media (max-width: 400px) {
   .campus-life-head2-txt {
     font-size: 15px;
-  }
-  .campus-life-txt {
-    color: aliceblue;
-    font-size: 30px;
   }
   .campus-life-card {
     width: 100%;
