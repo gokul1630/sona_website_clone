@@ -259,8 +259,8 @@ td:hover {
   text-align: justify;
 }
 .campus-life-img {
-  height: 20vh;
-  width: 35vh;
+  height: auto;
+  width: 100%;
 }
 
 .footer {
