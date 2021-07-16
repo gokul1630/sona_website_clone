@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/sona_website_clone/static/css/main.6fe1d0fc.chunk.css",
+    "main.css": "/sona_website_clone/static/css/main.d3ca39e2.chunk.css",
     "main.js": "/sona_website_clone/static/js/main.812ed63a.chunk.js",
     "main.js.map": "/sona_website_clone/static/js/main.812ed63a.chunk.js.map",
     "runtime-main.js": "/sona_website_clone/static/js/runtime-main.29f9edad.js",
@@ -10,14 +10,14 @@
     "static/js/2.c6c70647.chunk.js.map": "/sona_website_clone/static/js/2.c6c70647.chunk.js.map",
     "index.html": "/sona_website_clone/index.html",
     "static/css/2.ab15e587.chunk.css.map": "/sona_website_clone/static/css/2.ab15e587.chunk.css.map",
-    "static/css/main.6fe1d0fc.chunk.css.map": "/sona_website_clone/static/css/main.6fe1d0fc.chunk.css.map",
+    "static/css/main.d3ca39e2.chunk.css.map": "/sona_website_clone/static/css/main.d3ca39e2.chunk.css.map",
     "static/js/2.c6c70647.chunk.js.LICENSE.txt": "/sona_website_clone/static/js/2.c6c70647.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.29f9edad.js",
     "static/css/2.ab15e587.chunk.css",
     "static/js/2.c6c70647.chunk.js",
-    "static/css/main.6fe1d0fc.chunk.css",
+    "static/css/main.d3ca39e2.chunk.css",
     "static/js/main.812ed63a.chunk.js"
   ]
 }
