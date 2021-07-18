@@ -11,7 +11,7 @@ function Gallery(props) {
       showThumbnails={false}
       autoPlay={true}
       lazyLoad={true}
-      showBullets={true}
+      showBullets={false}
     />
   );
 }
