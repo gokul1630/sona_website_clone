@@ -102,7 +102,6 @@ td:hover {
 }
 .card-content ul li::before {
   content: url('https://www.sonatech.ac.in/images/new1.gif');
-  padding-right: 0px;
 }
 
 #announcement-text {
