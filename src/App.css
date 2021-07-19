@@ -16,14 +16,13 @@ body {
 .cont {
   display: grid;
   grid-template-columns: 1fr 450px 1fr;
+  background-color: #355e9a;
   grid-template-areas:
     'head head head'
     'aboutus vision coreValues'
     'footer footer footer';
 }
-.cont {
-  background-color: #355e9a;
-}
+
 .navbar {
   background-color: #37598c;
 }
