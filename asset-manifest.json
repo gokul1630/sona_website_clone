@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/sona_website_clone/static/css/main.d3ca39e2.chunk.css",
-    "main.js": "/sona_website_clone/static/js/main.0dc24275.chunk.js",
-    "main.js.map": "/sona_website_clone/static/js/main.0dc24275.chunk.js.map",
+    "main.css": "/sona_website_clone/static/css/main.7d30e3d1.chunk.css",
+    "main.js": "/sona_website_clone/static/js/main.b73c3417.chunk.js",
+    "main.js.map": "/sona_website_clone/static/js/main.b73c3417.chunk.js.map",
     "runtime-main.js": "/sona_website_clone/static/js/runtime-main.29f9edad.js",
     "runtime-main.js.map": "/sona_website_clone/static/js/runtime-main.29f9edad.js.map",
     "static/css/2.ab15e587.chunk.css": "/sona_website_clone/static/css/2.ab15e587.chunk.css",
@@ -10,14 +10,14 @@
     "static/js/2.c6c70647.chunk.js.map": "/sona_website_clone/static/js/2.c6c70647.chunk.js.map",
     "index.html": "/sona_website_clone/index.html",
     "static/css/2.ab15e587.chunk.css.map": "/sona_website_clone/static/css/2.ab15e587.chunk.css.map",
-    "static/css/main.d3ca39e2.chunk.css.map": "/sona_website_clone/static/css/main.d3ca39e2.chunk.css.map",
+    "static/css/main.7d30e3d1.chunk.css.map": "/sona_website_clone/static/css/main.7d30e3d1.chunk.css.map",
     "static/js/2.c6c70647.chunk.js.LICENSE.txt": "/sona_website_clone/static/js/2.c6c70647.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.29f9edad.js",
     "static/css/2.ab15e587.chunk.css",
     "static/js/2.c6c70647.chunk.js",
-    "static/css/main.d3ca39e2.chunk.css",
-    "static/js/main.0dc24275.chunk.js"
+    "static/css/main.7d30e3d1.chunk.css",
+    "static/js/main.b73c3417.chunk.js"
   ]
 }
