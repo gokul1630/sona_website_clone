@@ -62,9 +62,7 @@ body {
   text-align: left;
   margin-top: 20px;
 }
-p {
-  text-align: justify;
-}
+
 .card ul li::before {
   content: '✓';
   color: green;
@@ -119,7 +117,7 @@ td:hover {
 }
 
 .notificationPanel .items {
-  text-align: justify;
+  text-align: left;
   padding: 10px;
 }
 .items a {
@@ -148,7 +146,7 @@ td:hover {
 .notificationPanel button:hover {
   color: rgb(185, 185, 185);
 }
-.social-links h2 {
+.social-links h3 {
   padding: 10px;
   color: green;
   font-size: 2rem;
@@ -163,7 +161,7 @@ td:hover {
   color: white;
   margin-left: 25%;
   margin-right: 25%;
-  background-color: rgb(0, 204, 0);
+  background-color: green;
   border-radius: 0.5rem;
   border: none;
 }
@@ -201,9 +199,12 @@ td:hover {
   font-size: 4vw;
   text-align: center;
 }
-.academia-text span,
+.academia-text span{
+    color: #697500;
+  font-weight: bold;
+}
 .campus-life span {
-  color: #ffcc00;
+  color: #e5ff00;
   font-weight: bold;
 }
 .campus-life {

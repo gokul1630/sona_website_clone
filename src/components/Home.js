@@ -181,7 +181,7 @@ function Home(props) {
         </div>
         <div className='social-links'>
           <Card className='card'>
-            <h2>Sona Medical College of Naturopathy and Yoga</h2>
+            <h3>Sona Medical College of Naturopathy and Yoga</h3>
             <h4>Admissions Open 2021</h4>
             <button className='btn-apply'>Apply Now</button>
             <CardContent>

@@ -11,10 +11,10 @@ function PostCard(props) {
           <img className='' src={props.link} alt={props.title} />
           <br />
           <br />
-          <h6>
+          <h4>
             <Link to='/'>{props.title}</Link>
-          </h6>
-          <h6>{props.about}</h6>
+          </h4>
+          <p>{props.about}</p>
         </CardContent>
       </Card>
     </div>
