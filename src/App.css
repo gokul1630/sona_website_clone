@@ -32,6 +32,13 @@ body {
 }
 .footer {
   grid-area: footer;
+  background-color: #37598c;
+  width: 100%;
+  text-align: left;
+  padding: 20px;
+  color: rgb(207, 207, 207);
+  display: grid;
+  grid-template-areas: 'admission accreditation students faculty';
 }
 .vision,
 .announcement {
@@ -178,10 +185,6 @@ td:hover {
   background: linear-gradient(to right top, transparent 49%, #355e9a 50%);
 }
 
-.footer {
-  background-color: #37598c;
-  width: 100%;
-}
 .footer-txt {
   color: white;
   padding: 10px;
@@ -235,8 +238,8 @@ td:hover {
   color: aliceblue;
   font-size: 3.5vw;
 }
-@media screen and (max-width:500px) {
-    .campus-life-txt {
+@media screen and (max-width: 500px) {
+  .campus-life-txt {
     color: aliceblue;
     font-size: 7vw;
   }
@@ -264,13 +267,6 @@ td:hover {
   width: 100%;
 }
 
-.footer {
-  text-align: left;
-  padding: 20px;
-  color: rgb(207, 207, 207);
-  display: grid;
-  grid-template-areas: 'admission accreditation students faculty';
-}
 .admission {
   grid-area: admission;
 }
@@ -304,14 +300,6 @@ td:hover {
       'vision vision vision'
       'coreValues coreValues coreValues'
       'footer footer footer';
-  }
-  .footer {
-    display: grid;
-    grid-template-areas:
-      'admission'
-      'accreditation'
-      'students'
-      'faculty';
   }
   .footer {
     display: grid;
