@@ -26,6 +26,9 @@ body {
 .navbar {
   background-color: #37598c;
 }
+a.nav-link{
+    color: white !important;
+}
 .head {
   grid-area: head;
 }
@@ -151,7 +154,7 @@ td:hover {
   font-size: 2rem;
 }
 .social-links h4 h5 {
-  color: #355e9a;
+  color: black !important;
 }
 .social-links {
   text-align: center;
