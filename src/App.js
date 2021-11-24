@@ -1,38 +1,26 @@
-import React from 'react';
-import { HashRouter, Route } from 'react-router-dom';
-import { AnimatedSwitch } from 'react-router-transition';
-import './App.css';
-import FabButton from './components/Fab';
-import Navigation from './components/Navigation';
-import About from './components/About';
-import Contact from './components/Contact';
-import Home from './components/Home';
-
-function ReactSwitches() {
-  return (
-    <AnimatedSwitch
-      atEnter={{ opacity: 0 }}
-      atLeave={{ opacity: 0 }}
-      atActive={{ opacity: 1 }}
-      className='switch-wrapper'
-    >
-      <Route exact path='/' component={Home} />
-      <Route exact path='/about' component={About} />
-      <Route exact path='/contact' component={Contact} />
-    </AnimatedSwitch>
-  );
-}
-
+import React, { Suspense } from 'react'
+import { HashRouter, Route, Routes } from 'react-router-dom'
+import './App.css'
+import spinner from './assets/Spinner.svg'
+const About = React.lazy(() => import('./components/About'))
+const Contact = React.lazy(() => import('./components/Contact'))
+const FabButton = React.lazy(() => import('./components/Fab'))
+const Home = React.lazy(() => import('./components/Home'))
+const Navigation = React.lazy(() => import('./components/Navigation'))
 function App(props) {
   return (
-    <main>
-      <HashRouter>
+    <HashRouter>
+      <Suspense fallback={<img src={spinner} alt="spinner" />}>
         <Navigation />
-        <ReactSwitches />
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/about" element={<About />} />
+          <Route exact path="/contact" element={<Contact />} />
+        </Routes>
         <FabButton />
-      </HashRouter>
-    </main>
-  );
+      </Suspense>
+    </HashRouter>
+  )
 }
 
-export default App;
+export default App
