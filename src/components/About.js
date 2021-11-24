@@ -1,38 +1,38 @@
-import Card from '@material-ui/core/Card';
-import CardContent from '@material-ui/core/CardContent';
-import React from 'react';
-import { Link } from 'react-router-dom';
-import Footer from './Home/Footer';
+import Card from '@material-ui/core/Card'
+import CardContent from '@material-ui/core/CardContent'
+import React from 'react'
+import { Link } from 'react-router-dom'
+import Footer from './Home/Footer'
 function About() {
   return (
-    <div className='container-fluid'>
-      <div className='head'>
+    <div className="container-fluid">
+      <div className="head">
         <img
-          className='img-fluid'
-          src='https://www.sonatech.ac.in/about-sona/images/sona-college.jpg'
-          alt='sona-about'
+          className="img-fluid"
+          src="https://raw.githubusercontent.com/gokul1630/sona_website_clone/main/src/assets/images/HeaderImages/sona-college.jpg"
+          alt="sona-about"
         />
-        <div className='bottom-nav'>
-          <ol className='breadcrumb'>
-            <li className='breadcrumb-item'>
-              <Link to='/'>Home</Link>
+        <div className="bottom-nav">
+          <ol className="breadcrumb">
+            <li className="breadcrumb-item">
+              <Link to="/">Home</Link>
             </li>
-            <li className='breadcrumb-item active'>About Us</li>
+            <li className="breadcrumb-item active">About Us</li>
           </ol>
         </div>
-        <div className='about-text'>
-          <h1 className='text-center' id='about-text'>
+        <div className="about-text">
+          <h1 className="text-center" id="about-text">
             About us
           </h1>
         </div>
       </div>
-      <div className='skew1' />
-      <div className='cont'>
-        <div className='vision'>
-          <h3 className='text-center' id='vision-text'>
+      <div className="skew1" />
+      <div className="cont">
+        <div className="vision">
+          <h3 className="text-center" id="vision-text">
             Vision
           </h3>
-          <Card className='card'>
+          <Card className="card">
             <CardContent>
               <p>
                 To become an institute of great repute, in the fields of
@@ -52,12 +52,12 @@ function About() {
           </Card>
         </div>
 
-        <div className='mission'>
-          <h3 className='text-center' id='mission-text'>
+        <div className="mission">
+          <h3 className="text-center" id="mission-text">
             Mission
           </h3>
 
-          <Card className='card'>
+          <Card className="card">
             <CardContent>
               <p>
                 Sona College of Technology is a private engineering institution
@@ -77,11 +77,11 @@ function About() {
           </Card>
         </div>
 
-        <div className='coreValues'>
-          <h3 className='text-center' id='corevalues-text'>
+        <div className="coreValues">
+          <h3 className="text-center" id="corevalues-text">
             Core Values
           </h3>
-          <Card className='card'>
+          <Card className="card">
             <CardContent>
               <ul>
                 <li>Industry interaction</li>
@@ -97,11 +97,11 @@ function About() {
           </Card>
         </div>
       </div>
-      <div className='skew2' />
+      <div className="skew2" />
       <br />
       <Footer />
     </div>
-  );
+  )
 }
 
-export default About;
+export default About

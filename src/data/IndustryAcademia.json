@@ -1,22 +1,56 @@
 [
-	{ "link": "https://www.sonatech.ac.in/images/ind/isro1.png" },
-	{ "link": "https://www.sonatech.ac.in/images/ind/infosys1.png" },
-	{
-		"link": "https://www.sonatech.ac.in/images/ind/nagoya-institute-technology-nagoya-japan.png"
-	},
-	{ "link": "https://www.sonatech.ac.in/images/ind/Swinburne-University.png" },
-	{ "link": "https://www.sonatech.ac.in/images/ind/live-wire.jpg" },
-	{ "link": "https://www.sonatech.ac.in/images/ind/Nottingham.png" },
-	{ "link": "https://www.sonatech.ac.in/images/ind/red-hat.png" },
-	{ "link": "https://www.sonatech.ac.in/images/ind/ncsss.png" },
-	{ "link": "https://www.sonatech.ac.in/images/ind/Bharat-Electronics.png" },
-	{ "link": "https://www.sonatech.ac.in/images/ind/jsw-steel-agencies.png" },
-	{ "link": "https://www.sonatech.ac.in/images/ind/vmware.png" },
-	{ "link": "https://www.sonatech.ac.in/images/ind/cochin.jpg" },
-	{ "link": "https://www.sonatech.ac.in/images/ind/npl-india.png" },
-	{ "link": "https://www.sonatech.ac.in/images/ind/smart-bridge.jpg" },
-	{ "link": "https://www.sonatech.ac.in/images/ind/titan.png" },
-	{ "link": "https://www.sonatech.ac.in/images/ind/TNPCB.png" },
-	{ "link": "https://www.sonatech.ac.in/images/ind/tex-valley.png" },
-	{ "link": "https://www.sonatech.ac.in/images/ind/salieabs.jpg" }
+  {
+    "link": "https://raw.githubusercontent.com/gokul1630/sona_website_clone/main/src/assets/images/IndustryAcademia/isro1.png"
+  },
+  {
+    "link": "https://raw.githubusercontent.com/gokul1630/sona_website_clone/main/src/assets/images/IndustryAcademia/infosys1.png"
+  },
+  {
+    "link": "https://raw.githubusercontent.com/gokul1630/sona_website_clone/main/src/assets/images/IndustryAcademia/nagoya-institute-technology-nagoya-japan.png"
+  },
+  {
+    "link": "https://raw.githubusercontent.com/gokul1630/sona_website_clone/main/src/assets/images/IndustryAcademia/Swinburne-University.png"
+  },
+  {
+    "link": "https://raw.githubusercontent.com/gokul1630/sona_website_clone/main/src/assets/images/IndustryAcademia/live-wire.jpg"
+  },
+  {
+    "link": "https://raw.githubusercontent.com/gokul1630/sona_website_clone/main/src/assets/images/IndustryAcademia/Nottingham.png"
+  },
+  {
+    "link": "https://raw.githubusercontent.com/gokul1630/sona_website_clone/main/src/assets/images/IndustryAcademia/red-hat.png"
+  },
+  {
+    "link": "https://raw.githubusercontent.com/gokul1630/sona_website_clone/main/src/assets/images/IndustryAcademia/ncsss.png"
+  },
+  {
+    "link": "https://raw.githubusercontent.com/gokul1630/sona_website_clone/main/src/assets/images/IndustryAcademia/Bharat-Electronics.png"
+  },
+  {
+    "link": "https://raw.githubusercontent.com/gokul1630/sona_website_clone/main/src/assets/images/IndustryAcademia/jsw-steel-agencies.png"
+  },
+  {
+    "link": "https://raw.githubusercontent.com/gokul1630/sona_website_clone/main/src/assets/images/IndustryAcademia/vmware.png"
+  },
+  {
+    "link": "https://raw.githubusercontent.com/gokul1630/sona_website_clone/main/src/assets/images/IndustryAcademia/cochin.jpg"
+  },
+  {
+    "link": "https://raw.githubusercontent.com/gokul1630/sona_website_clone/main/src/assets/images/IndustryAcademia/npl-india.png"
+  },
+  {
+    "link": "https://raw.githubusercontent.com/gokul1630/sona_website_clone/main/src/assets/images/IndustryAcademia/smart-bridge.jpg"
+  },
+  {
+    "link": "https://raw.githubusercontent.com/gokul1630/sona_website_clone/main/src/assets/images/IndustryAcademia/titan.png"
+  },
+  {
+    "link": "https://raw.githubusercontent.com/gokul1630/sona_website_clone/main/src/assets/images/IndustryAcademia/TNPCB.png"
+  },
+  {
+    "link": "https://raw.githubusercontent.com/gokul1630/sona_website_clone/main/src/assets/images/IndustryAcademia/tex-valley.png"
+  },
+  {
+    "link": "https://raw.githubusercontent.com/gokul1630/sona_website_clone/main/src/assets/images/IndustryAcademia/salieabs.jpg"
+  }
 ]

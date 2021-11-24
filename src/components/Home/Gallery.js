@@ -1,6 +1,6 @@
-import React from 'react';
-import ImageGallery from 'react-image-gallery';
-import 'react-image-gallery/styles/css/image-gallery.css';
+import React from 'react'
+import ImageGallery from 'react-image-gallery'
+import 'react-image-gallery/styles/css/image-gallery.css'
 
 function Gallery(props) {
   return (
@@ -13,7 +13,7 @@ function Gallery(props) {
       lazyLoad={true}
       showBullets={false}
     />
-  );
+  )
 }
 
-export default Gallery;
+export default Gallery

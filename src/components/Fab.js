@@ -1,5 +1,5 @@
-import { Fab } from '@material-ui/core';
-import React from 'react';
+import { Fab } from '@material-ui/core'
+import React from 'react'
 
 function FabButton(props) {
   return (
@@ -12,11 +12,11 @@ function FabButton(props) {
         backgroundColor: '#1E4276',
         color: 'white',
       }}
-      variant='extended'
+      variant="extended"
     >
       <strong>Apply Now</strong>
     </Fab>
-  );
+  )
 }
 
-export default FabButton;
+export default FabButton

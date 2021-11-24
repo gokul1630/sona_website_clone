@@ -1,32 +1,32 @@
 [
-	{
-		"link": "https://www.sonatech.ac.in/images/teqball-national-challenger-series-2021.jpg",
-		"title": "1st. Teqball National Challenger Series begins in Salem; Six players from Sona College take part",
-		"about": "The first Teqball National Challenger Series, Phase- 1 matches began in Salem on March 26 at Notre Dame of Holy Cross School, Salem."
-	},
-	{
-		"link": "https://www.sonatech.ac.in/images/I-prize-R.E.Vijaysri-FT-2nd-year.jpg",
-		"title": "What COVID-19 had done to us?",
-		"about": "Sona Student Speakers Forum resumed with a blast after the 10 month lockdown. On the first event of the forum, a contest was held on topic, “What COVID-19 had done to us?”"
-	},
-	{
-		"link": "https://www.sonatech.ac.in/images/canada-university-collobration-sona.jpg",
-		"title": "Vee Tech and Sona to collaborate with Canada’s University Health Network",
-		"about": "To join multi-institution research as part of FIBRE project to develop smart fabric-based wearables"
-	},
-	{
-		"link": "https://www.sonatech.ac.in/images/sona-ficci-award-2021.jpg",
-		"title": "FICCI Award 2021",
-		"about": "Sona College of Technology clinches national level FICCI Award 2021 for Excellence in Institutional Social Responsibility..."
-	},
-	{
-		"link": "https://www.sonatech.ac.in/images/sona-nptel-faculty-achivers-2021.jpg",
-		"title": "Sona’s faculty the best in the country, says NPTEL",
-		"about": "The National Programme on Technology Enhanced Learning (NPTEL) has rated the faculty at Sona College of Technology to be the best among 4500 of its local chapters in the country."
-	},
-	{
-		"link": "https://www.sonatech.ac.in/images/chevening-fellowship-india.jpg",
-		"title": "Sona College of Technology Knowledge Head wins Chevening Fellowship!",
-		"about": "The Sona College of Technology, a part of the Sona Group of Institutions, has added yet another feather to its cap!"
-	}
+  {
+    "link": "https://raw.githubusercontent.com/gokul1630/sona_website_clone/main/src/assets/images/News/teqball-national-challenger-series-2021.jpg",
+    "title": "1st. Teqball National Challenger Series begins in Salem; Six players from Sona College take part",
+    "about": "The first Teqball National Challenger Series, Phase- 1 matches began in Salem on March 26 at Notre Dame of Holy Cross School, Salem."
+  },
+  {
+    "link": "https://raw.githubusercontent.com/gokul1630/sona_website_clone/main/src/assets/images/News/I-prize-R.E.Vijaysri-FT-2nd-year.jpg",
+    "title": "What COVID-19 had done to us?",
+    "about": "Sona Student Speakers Forum resumed with a blast after the 10 month lockdown. On the first event of the forum, a contest was held on topic, “What COVID-19 had done to us?”"
+  },
+  {
+    "link": "https://raw.githubusercontent.com/gokul1630/sona_website_clone/main/src/assets/images/News/canada-university-collobration-sona.jpg",
+    "title": "Vee Tech and Sona to collaborate with Canada’s University Health Network",
+    "about": "To join multi-institution research as part of FIBRE project to develop smart fabric-based wearables"
+  },
+  {
+    "link": "https://raw.githubusercontent.com/gokul1630/sona_website_clone/main/src/assets/images/News/sona-ficci-award-2021.jpg",
+    "title": "FICCI Award 2021",
+    "about": "Sona College of Technology clinches national level FICCI Award 2021 for Excellence in Institutional Social Responsibility..."
+  },
+  {
+    "link": "https://raw.githubusercontent.com/gokul1630/sona_website_clone/main/src/assets/images/News/sona-nptel-faculty-achivers-2021.jpg",
+    "title": "Sona’s faculty the best in the country, says NPTEL",
+    "about": "The National Programme on Technology Enhanced Learning (NPTEL) has rated the faculty at Sona College of Technology to be the best among 4500 of its local chapters in the country."
+  },
+  {
+    "link": "https://raw.githubusercontent.com/gokul1630/sona_website_clone/main/src/assets/images/News/chevening-fellowship-india.jpg",
+    "title": "Sona College of Technology Knowledge Head wins Chevening Fellowship!",
+    "about": "The Sona College of Technology, a part of the Sona Group of Institutions, has added yet another feather to its cap!"
+  }
 ]

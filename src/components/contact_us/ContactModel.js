@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 function ContactModel(props) {
   return (
@@ -6,7 +6,7 @@ function ContactModel(props) {
       <td>{props.name}</td>
       <td>{props.contact}</td>
     </tr>
-  );
+  )
 }
 
-export default ContactModel;
+export default ContactModel

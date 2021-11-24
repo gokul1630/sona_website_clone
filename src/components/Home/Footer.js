@@ -1,9 +1,9 @@
-import React from 'react';
+import React from 'react'
 
 function Footer(props) {
   return (
-    <div className='footer'>
-      <div className='admission'>
+    <div className="footer">
+      <div className="admission">
         <h4>ADMISSIONS</h4>
         <ul>
           <li>Admissions 2021-22</li>
@@ -14,7 +14,7 @@ function Footer(props) {
         </ul>
       </div>
       <br />
-      <div className='accreditation'>
+      <div className="accreditation">
         <h4>ACCREDITATION</h4>
         <ul>
           <li>Admissions 2021-22</li>
@@ -25,7 +25,7 @@ function Footer(props) {
         </ul>
       </div>
       <br />
-      <div className='students'>
+      <div className="students">
         <h4>STUDENTS</h4>
         <ul>
           <li>Admissions 2021-22</li>
@@ -36,7 +36,7 @@ function Footer(props) {
         </ul>
       </div>
       <br />
-      <div className='faculty'>
+      <div className="faculty">
         <h4>FACULTY</h4>
         <ul>
           <li>Admissions 2021-22</li>
@@ -47,7 +47,7 @@ function Footer(props) {
         </ul>
       </div>
     </div>
-  );
+  )
 }
 
-export default Footer;
+export default Footer

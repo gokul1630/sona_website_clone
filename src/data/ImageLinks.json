@@ -1,26 +1,26 @@
 [
-	{
-		"original": "https://www.sonatech.ac.in/images/banner/abdul-kalam-sona.jpg",
-		"originalAlt": "abdul-kalam-sona.jpg"
-	},
-	{
-		"original": "https://www.sonatech.ac.in/images/tradeshow.jpg",
-		"originalAlt": "images/tradeshow.jpg"
-	},
-	{
-		"original": "https://www.sonatech.ac.in/images/awards.jpg",
-		"originalAlt": "awards.jpg"
-	},
-	{
-		"original": "https://www.sonatech.ac.in/images/ficci-award-2020.jpg",
-		"originalAlt": "ficci-award-2020.jpg"
-	},
-	{
-		"original": "https://www.sonatech.ac.in/images/sona-placement-2021.jpg",
-		"originalAlt": "sona-placement-2021.jpg"
-	},
-	{
-		"original": "https://www.sonatech.ac.in/images/aicte-viswakarama-award-2020.jpg",
-		"originalAlt": "aicte-viswakarama-award-2020.jpg"
-	}
+  {
+    "original": "https://raw.githubusercontent.com/gokul1630/sona_website_clone/main/src/assets/images/HomePageBanner/abdul-kalam-sona.jpg",
+    "originalAlt": "abdul-kalam-sona.jpg"
+  },
+  {
+    "original": "https://raw.githubusercontent.com/gokul1630/sona_website_clone/main/src/assets/images/HomePageBanner/tradeshow.jpg",
+    "originalAlt": "images/tradeshow.jpg"
+  },
+  {
+    "original": "https://raw.githubusercontent.com/gokul1630/sona_website_clone/main/src/assets/images/HomePageBanner/awards.jpg",
+    "originalAlt": "awards.jpg"
+  },
+  {
+    "original": "https://raw.githubusercontent.com/gokul1630/sona_website_clone/main/src/assets/images/HomePageBanner/ficci-award-2020.jpg",
+    "originalAlt": "ficci-award-2020.jpg"
+  },
+  {
+    "original": "https://raw.githubusercontent.com/gokul1630/sona_website_clone/main/src/assets/images/HomePageBanner/sona-placement-2021.jpg",
+    "originalAlt": "sona-placement-2021.jpg"
+  },
+  {
+    "original": "https://raw.githubusercontent.com/gokul1630/sona_website_clone/main/src/assets/images/HomePageBanner/aicte-viswakarama-award-2020.jpg",
+    "originalAlt": "aicte-viswakarama-award-2020.jpg"
+  }
 ]
