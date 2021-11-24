@@ -1,52 +1,56 @@
 {
-	"name": "internship_project",
-	"version": "0.1.0",
-	"private": true,
-	"homepage": "https://gokul1630.github.io/sona_website_clone",
-	"dependencies": {
-		"@material-ui/core": "^4.12.3",
-		"@material-ui/icons": "^4.11.2",
-		"@splidejs/react-splide": "^0.6.12",
-		"@testing-library/jest-dom": "^5.15.0",
-		"@testing-library/react": "^12.1.2",
-		"@testing-library/user-event": "^13.5.0",
-		"react": "^17.0.2",
-		"react-dom": "^17.0.2",
-		"react-image-gallery": "^1.2.7",
-		"react-router-dom": "^6.0.2",
-		"react-router-transition": "^2.1.0",
-		"react-scripts": "^3.4.4",
-		"web-vitals": "^2.1.2"
-	},
-	"scripts": {
-		"start": "react-scripts start",
-		"build": "react-scripts build",
-		"test": "react-scripts test",
-		"eject": "react-scripts eject",
-		"predeploy": "npm run build",
-		"deploy": "gh-pages -d build",
-		"prettier": "prettier --write \"src/**/*.{js,html,css,json}\""
-	},
-	"eslintConfig": {
-		"extends": [
-			"react-app",
-			"react-app/jest"
-		]
-	},
-	"browserslist": {
-		"production": [
-			">0.2%",
-			"not dead",
-			"not op_mini all"
-		],
-		"development": [
-			"last 1 chrome version",
-			"last 1 firefox version",
-			"last 1 safari version"
-		]
-	},
-	"devDependencies": {
-		"gh-pages": "^3.2.3",
-		"prettier": "^2.4.1"
-	}
+  "name": "internship_project",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://gokul1630.github.io/sona_website_clone",
+  "dependencies": {
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "@splidejs/react-splide": "^0.6.15",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-image-gallery": "^1.2.7",
+    "react-router-dom": "^6.0.2"
+  },
+  "scripts": {
+    "start": "webpack serve --config webpack/webpack.dev.js --open",
+    "build": "webpack --config webpack/webpack.production.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "prettier": "prettier --write \"src/**/*.{js,html,css,json}\""
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3",
+    "prettier": "^2.4.1",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-react": "^7.16.0",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.1",
+    "html-webpack-plugin": "^5.5.0",
+    "react-hot-loader": "^4.13.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.64.2",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.5.0",
+    "webpack-merge": "^5.8.0"
+  }
 }
