@@ -26,8 +26,8 @@ body {
 .navbar {
   background-color: #37598c;
 }
-a.nav-link{
-    color: white !important;
+a.nav-link {
+  color: white !important;
 }
 .head {
   grid-area: head;
