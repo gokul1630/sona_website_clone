@@ -1,6 +1,6 @@
 const { merge } = require('webpack-merge')
 const common = require('./webpack.common')
-const path = require('path')
+
 const dev = {
 	mode: 'development',
 	devtool: 'cheap-module-source-map',
