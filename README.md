@@ -25,3 +25,6 @@ npm start
 <img src='https://media.giphy.com/media/hm5AsGSDEykZqTnd4Z/giphy.gif' alt='Demo'/>
 <img src='https://media.giphy.com/media/j2kSRPlkzyD4M00cix/giphy.gif' alt='Demo'/>
 </p>
+
+# Lighthouse results
+![image](https://user-images.githubusercontent.com/43679827/159125857-00cde0f9-b3fc-4179-a479-07611cbf717c.png)
