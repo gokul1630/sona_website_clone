@@ -1,8 +1,9 @@
 import { Card, CardContent } from '@material-ui/core'
-import { Splide, SplideSlide } from '@splidejs/react-splide'
-import '@splidejs/splide/dist/css/themes/splide-default.min.css'
-import React from 'react'
+import React, { memo } from 'react'
 import { Link } from 'react-router-dom'
+import SwiperCore, { Autoplay, Navigation, Pagination } from 'swiper'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import 'swiper/swiper-bundle.min.css'
 import achievements from '../data/Achievements.json'
 import links from '../data/AnnouncementLinks.json'
 import CampusLifeData from '../data/CampusLifeData.json'
@@ -14,14 +15,52 @@ import news from '../data/News.json'
 import AnnouncementPost from './Home/AnnouncementPost'
 import CampusLife from './Home/CampusLife'
 import Footer from './Home/Footer'
-import Gallery from './Home/Gallery'
 import IndustryAcademia from './Home/IndustryAcademia'
 import PostCard from './Home/PostCard'
 
-function Home(props) {
+SwiperCore.use([Navigation, Pagination, Autoplay])
+function Home() {
+  const SwiperComponent = memo(({ data, children }) => (
+    <Swiper
+      observeParents
+      observer
+      loop
+      autoplay
+      navigation
+      slidesPerView={1}
+      spaceBetween={20}
+    >
+      {data.map(({ title, about, link }) => (
+        <SwiperSlide key={title}>
+          {React.cloneElement(children, { title, about, link })}
+        </SwiperSlide>
+      ))}
+    </Swiper>
+  ))
   return (
     <div className="container-fluid">
-      <Gallery link={images} />
+      <Swiper
+        loop
+        navigation
+        pagination
+        autoplay
+        parallax
+        slidesPerView={1}
+        spaceBetween={20}
+      >
+        {images &&
+          images.map(({ original, originalAlt }) => (
+            <SwiperSlide key={original}>
+              {console.log(original)}
+              <img
+                width={'100%'}
+                height={'100%'}
+                src={original}
+                alt={originalAlt}
+              />
+            </SwiperSlide>
+          ))}
+      </Swiper>
       <br />
       <div className="skew1"></div>
       <div className="cont">
@@ -96,28 +135,9 @@ function Home(props) {
               role="tabpanel"
               aria-labelledby="pills-home-tab"
             >
-              <Splide
-                options={{
-                  type: 'loop',
-                  gap: '1rem',
-                  autoplay: true,
-                  pauseOnHover: false,
-                  resetProgress: false,
-                  arrows: 'slider',
-                  perPage: 1,
-                }}
-              >
-                {achievements.map((item) => (
-                  <SplideSlide key={item.title}>
-                    <PostCard
-                      link={item.link}
-                      title={item.title}
-                      about={item.about}
-                    />
-                  </SplideSlide>
-                ))}
-              </Splide>
-              {/* <PostCard data={data} /> */}
+              <SwiperComponent data={achievements}>
+                <PostCard />
+              </SwiperComponent>
             </div>
             <div
               className="tab-pane fade"
@@ -125,28 +145,9 @@ function Home(props) {
               role="tabpanel"
               aria-labelledby="pills-profile-tab"
             >
-              <Splide
-                options={{
-                  type: 'loop',
-                  gap: '1rem',
-                  autoplay: true,
-                  pauseOnHover: false,
-                  resetProgress: false,
-                  arrows: 'slider',
-                  perPage: 1,
-                }}
-              >
-                {news.map((item) => (
-                  <SplideSlide key={item.title}>
-                    <PostCard
-                      link={item.link}
-                      title={item.title}
-                      about={item.about}
-                    />
-                  </SplideSlide>
-                ))}
-              </Splide>
-              {/* <PostCard data={news} /> */}
+              <SwiperComponent data={news}>
+                <PostCard />
+              </SwiperComponent>
             </div>
 
             <div
@@ -155,28 +156,9 @@ function Home(props) {
               role="tabpanel"
               aria-labelledby="pills-contact-tab"
             >
-              <Splide
-                options={{
-                  type: 'loop',
-                  gap: '1rem',
-                  autoplay: true,
-                  pauseOnHover: false,
-                  resetProgress: false,
-                  arrows: 'slider',
-                  perPage: 1,
-                }}
-              >
-                {events.map((item) => (
-                  <SplideSlide key={item.title}>
-                    <PostCard
-                      link={item.link}
-                      title={item.title}
-                      about={item.about}
-                    />
-                  </SplideSlide>
-                ))}
-              </Splide>
-              {/* <PostCard data={events} /> */}
+              <SwiperComponent data={events}>
+                <PostCard />
+              </SwiperComponent>
             </div>
           </div>
         </div>
@@ -191,10 +173,10 @@ function Home(props) {
                 width="300"
                 height="200"
                 src="https://www.youtube-nocookie.com/embed/bpONNyFTkBQ"
-                title="YouTube video player"
-                frameBorder="0"
+                title="Svsita Inhalant Powder"
+                frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen={true}
+                allowfullscreen
               />
               <br />
               <h6>
