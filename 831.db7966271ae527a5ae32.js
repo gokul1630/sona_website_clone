@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkinternship_project=self.webpackChunkinternship_project||[]).push([[831],{5831:function(e,t,n){n.r(t);var r=n(731),o=n(7294);t.default=function(e){return o.createElement(r.Z,{style:{float:"right",position:"fixed",bottom:"20px",right:"20px",backgroundColor:"#1E4276",color:"white"},variant:"extended"},o.createElement("strong",null,"Apply Now"))}}}]);
