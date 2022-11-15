@@ -121,6 +121,8 @@ td:hover {
 .notificationPanel .items {
   text-align: left;
   padding: 10px;
+  display: flex;
+  justify-content: center;
 }
 .items a {
   text-decoration: none;

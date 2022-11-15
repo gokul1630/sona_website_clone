@@ -11,6 +11,7 @@ function FabButton(props) {
         right: '20px',
         backgroundColor: '#1E4276',
         color: 'white',
+        zIndex: 10,
       }}
       variant="extended"
     >

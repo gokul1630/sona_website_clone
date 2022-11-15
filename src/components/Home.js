@@ -48,18 +48,16 @@ function Home() {
         slidesPerView={1}
         spaceBetween={20}
       >
-        {images &&
-          images.map(({ original, originalAlt }) => (
-            <SwiperSlide key={original}>
-              {console.log(original)}
-              <img
-                width={'100%'}
-                height={'100%'}
-                src={original}
-                alt={originalAlt}
-              />
-            </SwiperSlide>
-          ))}
+        {images?.map(({ original, originalAlt }) => (
+          <SwiperSlide key={original}>
+            <img
+              width={'100%'}
+              height={'100%'}
+              src={original}
+              alt={originalAlt}
+            />
+          </SwiperSlide>
+        ))}
       </Swiper>
       <br />
       <div className="skew1"></div>
