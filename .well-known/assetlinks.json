@@ -1,0 +1,11 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.guvi.zenclass",
+      "sha256_cert_fingerprints":
+        ["A6:3A:A6:08:9A:A4:F9:6F:D0:71:75:6E:31:6E:70:91:79:AD:62:B0:D9:09:A4:D6:E7:57:02:53:7B:7E:7D:0E"]
+    }
+  }
+]
