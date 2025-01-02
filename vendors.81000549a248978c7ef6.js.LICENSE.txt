@@ -5,17 +5,6 @@ object-assign
 */
 
 /**
- * @remix-run/router v1.0.3
- *
- * Copyright (c) Remix Software Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE.md file in the root directory of this source tree.
- *
- * @license MIT
- */
-
-/**
  * A better abstraction over CSS.
  *
  * @copyright Oleg Isonen (Slobodskoi) / Isonen 2014-present
@@ -24,7 +13,7 @@ object-assign
  */
 
 /**
- * React Router DOM v6.4.3
+ * React Router DOM v6.3.0
  *
  * Copyright (c) Remix Software Inc.
  *
@@ -35,7 +24,7 @@ object-assign
  */
 
 /**
- * React Router v6.4.3
+ * React Router v6.3.0
  *
  * Copyright (c) Remix Software Inc.
  *
